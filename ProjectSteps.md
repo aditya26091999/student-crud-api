@@ -11,4 +11,10 @@
 11. As soon as server starts, test the API using Postman collection
 12. If you have node installed, do "npm i -g heroku"
 13. Check the installation by "heroku --version"
-14. "echo "web: gunicorn app:app" > Procfile"
+14. heroku login -> login from browser
+15. heroku create <appname>
+14. Add Procfile -> web: gunicorn app:app
+15. git add *
+16. git commit -m "Heroku config done"
+17. git push heroku master
+18. heroku ps:scale web=1
