@@ -9,3 +9,6 @@
 9. Set the FLASK_APP env variable by "set FLASK_APP=app"
 10. Run the WSGi Server for Flask RESTful API by "flask run" - Starts the dev server
 11. As soon as server starts, test the API using Postman collection
+12. If you have node installed, do "npm i -g heroku"
+13. Check the installation by "heroku --version"
+14. "echo "web: gunicorn app:app" > Procfile"
